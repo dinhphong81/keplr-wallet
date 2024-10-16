@@ -1,8 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies, @typescript-eslint/no-var-requires */
 
 import "zx/globals";
-import FolderHash from "folder-hash";
-
+import FolderHash 
 (async () => {
   try {
     const root = path.join(__dirname, "..");
